@@ -8,6 +8,7 @@ def home():
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta name="google-site-verification" content="Oem5iuWD0GKJOIvOnkEaS8W6Ar3YDHxgALnrojAm0HM" />
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
