@@ -9,6 +9,11 @@ def home():
 <html lang="en">
 
 <head>
+<meta name="description" content="Civil Engineering, GIS, Water Resources, Infrastructure Engineering and Sustainable Land Management services in Belgium.">
+
+<meta name="keywords" content="Civil Engineer, GIS, Water Resources, Infrastructure Engineering, AutoCAD, Civil 3D, Belgium, Sustainable Land Management">
+
+<meta name="author" content="Momin Azmi Shatat">
 <meta name="google-site-verification" content="Oem5iuWD0GKJOIvOnkEaS8W6Ar3YDHxgALnrojAm0HM" />
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
