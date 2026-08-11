@@ -8,6 +8,7 @@ def home():
     return """
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,91 +21,90 @@ def home():
     <title>Momin Engineering Solutions</title>
 
     <style>
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
-            font-family:Arial, sans-serif;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
         }
 
-        body{
-            background:#f4f6f9;
-            color:#333;
+        body {
+            background: #f4f6f9;
+            color: #333;
         }
 
-        nav{
-            background:#0F4C81;
-            color:white;
-            padding:20px 50px;
+        nav {
+            background: #0F4C81;
+            color: white;
+            padding: 20px 50px;
         }
 
-        .hero{
-            background:linear-gradient(
-                rgba(15,76,129,0.85),
-                rgba(15,76,129,0.85)
-            ),
-            url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80');
-            background-size:cover;
-            background-position:center;
-            color:white;
-            text-align:center;
-            padding:120px 20px;
+        .hero {
+            background:
+                linear-gradient(rgba(15,76,129,0.85), rgba(15,76,129,0.85)),
+                url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80');
+
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 120px 20px;
         }
 
-        .hero h1{
-            font-size:50px;
-            margin-bottom:20px;
+        .hero h1 {
+            font-size: 50px;
+            margin-bottom: 20px;
         }
 
-        .hero p{
-            font-size:22px;
+        .hero p {
+            font-size: 22px;
         }
 
-        .section{
-            padding:60px 10%;
+        .section {
+            padding: 60px 10%;
         }
 
-        .section h2{
-            text-align:center;
-            margin-bottom:30px;
-            color:#0F4C81;
+        .section h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #0F4C81;
         }
 
         .about,
-        .contact{
-            background:white;
-            padding:30px;
-            border-radius:10px;
-            box-shadow:0 2px 10px rgba(0,0,0,0.1);
-            line-height:1.8;
+        .contact {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            line-height: 1.8;
         }
 
-        .services{
-            display:flex;
-            flex-wrap:wrap;
-            gap:25px;
-            justify-content:center;
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            justify-content: center;
         }
 
-        .card{
-            background:white;
-            width:300px;
-            padding:25px;
-            border-radius:10px;
-            box-shadow:0 2px 10px rgba(0,0,0,0.1);
-            text-align:center;
+        .card {
+            background: white;
+            width: 300px;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            text-align: center;
         }
 
-        .card h3{
-            color:#0F4C81;
-            margin-bottom:15px;
+        .card h3 {
+            color: #0F4C81;
+            margin-bottom: 15px;
         }
 
-        footer{
-            background:#222;
-            color:white;
-            text-align:center;
-            padding:20px;
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
         }
     </style>
 </head>
@@ -127,14 +127,15 @@ def home():
         <p>Welcome to Momin Engineering Solutions.</p>
 
         <p>
-            I am Momin Azmi Shatat, a Civil Engineer and MSc student in
-            Sustainable Land Management at Vrije Universiteit Brussel.
+            I am Momin Azmi Shatat, a Civil Engineer and MSc student
+            in Sustainable Land Management at Vrije Universiteit Brussel.
         </p>
 
         <p>
             My experience includes infrastructure projects,
-            excavation works, utility installation, asphalt paving
-            coordination, site supervision, and engineering education.
+            excavation works, utility installation,
+            asphalt paving coordination, site supervision,
+            and engineering education.
         </p>
     </div>
 </section>
